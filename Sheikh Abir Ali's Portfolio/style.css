@@ -1,0 +1,182 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Fresca&display=swap'); */
+
+* {
+    font-family: 'Fresca', sans-serif;
+}
+
+@font-face {
+    font-family: 'Fresca', sans-serif;
+    src: url('assets/Font/Fresca-Regular.ttf');
+}
+
+/* Initiated with Dark Mode */
+body {
+    background-color: black;
+    color: white;
+
+    background-image: url('Background/galaxy.png');
+    background-repeat: repeat;
+    background-size: 100vw;
+    scroll-behavior: smooth;
+}
+
+/* Transparent Scrollbar */
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgba(90, 90, 90, 0);
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.2);
+  }
+
+/* Navigation Menu  Start */
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container .container-menu ul {
+    display: flex;
+}
+
+.container .container-menu ul li {
+    padding: 0px 20px;
+    list-style: none;
+    font-size: 30px;
+}
+
+.container .container-menu ul li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container .container-menu ul li a:hover {
+    color: greenyellow;
+}
+
+/* Navigation Menu End */
+
+
+/* Home Layout Start */
+
+.homelayout {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+
+    align-items: center;
+    margin-top: 5%;
+}
+
+.homelayout .aboutme p{
+    font-size: 40px;
+    opacity: .85;
+}
+
+.homelayout .aboutme .hey {
+    font-size: 42px;
+    opacity: .9;
+}
+
+.homelayout .homegif {
+    height: 400px;
+}
+
+/* Home Layout End */
+
+
+/* Skills & Certificates */
+
+.skills {
+    display: flex;
+}
+
+/* Skills & Certificates End */
+
+
+/* Projects */
+
+.projects {
+    display: flex;
+    justify-content: center;
+}
+
+.projects .projectselect ul{
+    display: flex;
+}
+
+.projects .projectselect ul li {
+    list-style: none;
+    padding: 0px 21px;
+}
+
+.projects .projectselect ul li button {
+    font-size: 26px;
+    background-color: rgba(0, 242, 255, 0.714);
+    color: white;
+    padding: 10px 21px;
+    border-radius: 50px;
+    transition: font-weight 0s, background-color 1.5s, color 0.5s;
+}
+
+.projects .projectselect ul li button:hover {
+    background-color: rgb(255, 255, 0, 0.5);
+    color: black;
+    font-weight: 600;
+}
+
+/* Projects End */
+
+
+/* Contact */
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Contact End */
+
+
+/* Footer */
+
+.footer {
+    display: inherit;
+    
+    padding: 5px;
+    background-color: rgba(19, 19, 19, 0.5);
+}
+
+.footer .footer-top {
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer .footer-bottom {
+    font-size: 16px;
+    text-align: center;
+    margin-top: -19px;
+}
+
+.footer .footer-bottom a {
+    color: inherit;
+    text-decoration: none;
+
+    font-size: 18px;
+}
+
+.footer .footer-bottom a:hover {
+    color: greenyellow;
+}
+
+/* Footer End */
+
+
+/* Responsive Section */
